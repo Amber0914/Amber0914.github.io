@@ -3,7 +3,7 @@
 <head>
     <title>Login</title>
 </head>
-<body bgcolor="#f8f9fd">
+<body class="body" bgcolor="#f8f9fd">
     <div class="title"> Login #08 </div>
     <div class="loginForm">
         <img src="icon.png"
@@ -25,21 +25,23 @@
         <button class="button"
                 type="button">Get Started 
            </button>
-             
-                    
-
-        </div>
+    </div>
         
         
       
 
 
-    </div>
 
     
 
 
 <style>    
+    .body{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;/* 垂直置中 */
+        align-items: center;
+    }
     .title{
 	    color: #0080FF;
         text-align:center;
@@ -49,6 +51,7 @@
         height:600px;
         border:3px;
         box-shadow:3px 3px 12px #D0D0D0;
+        text-align:center;
     }
     .name{        
         width:250px;
